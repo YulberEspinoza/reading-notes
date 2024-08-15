@@ -1,0 +1,25 @@
+# Lecturas
+
+## Component-Based Architecture
+
+### ¿Qué es un “componente”?
+Un componente es un conjunto modular, portátil, reemplazable y reutilizable de funcionalidades bien definidas que encapsula su implementación y la exporta como una interfaz de nivel superior.
+### ¿Cuáles son las características de un componente?
+- Reutilizable
+- Reemplazable
+- No especifico del contexto.
+- Extensible
+- Encapsulado
+- Independiente
+
+### ¿Cuáles son las ventajas de utilizar una arquitectura basada en componentes?
+Que nos permite hacer modificaiones y tener una base para crear grandes proyectos sin tener que preocuparnos por las refactorizaciones complicadas, ya que hacerlos por partes independientes y reutilizables hacen que sea mas fácil.
+
+## What is Props and How to Use it in React
+
+### ¿Qué significa “props”?
+Es el valor que se le indica a las propiedades.
+### ¿Cómo se utilizan los props en React?
+La utilización de props son como la forma de un objeto.
+### ¿Cuál es el flujo de los props?
+El flujo de los props son de manera jerargica del mayor al menor y nunca de viseversa.
