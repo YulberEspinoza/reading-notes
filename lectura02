@@ -1,0 +1,36 @@
+React lifecycle
+Según el diagrama, ¿qué sucede primero, el ‘render’ o el ‘componentDidMount’?
+- Sucede primero el render y luego el componetDidMount.
+
+¿Qué es lo primero que sucede en el ciclo de vida de React?
+- Lo primero que sucede es el montaje, esto en el construcctor como la clase padre.
+
+Coloca las siguientes cosas en el orden en que suceden: componentDidMount, render, constructor, componentWillUnmount, React Updates
+- Constructor, static getDerivedStateFromProps, render, componentDidMount y UNSAFE_componentWillMount
+
+¿Qué hace el componentDidMount?
+Este método se invoca inmediatamente después de montar un componente. Si necesita cargar algo mediante una solicitud de red o inicializar el DOM, debe hacerlo aquí. Este método es un buen lugar para configurar cualquier suscripción. Si lo hace, no olvide cancelar la suscripción en componentWillUnmount().
+setState() se puede llamar aquí, pero se debe utilizar con moderación, ya que provocará una nueva renderización, lo que puede generar problemas de rendimiento.
+
+Videos
+React State Vs Props
+
+¿Qué tipo de cosas puedes enviar mediante props?
+- Puedes enviar de esta forma, this.props: son los accesorios de la clase padre hacia los hijos o los que lo requieran.
+
+¿Cuál es la mayor diferencia entre props y state?
+- La mayor diferencia radica en que los props, pueden realizar sus cambios en la clase superior y en cambio los state se realizan dentro del programa en el mismo instante que se lo requiera.
+
+¿Cuándo volvemos a renderizar nuestra aplicación?
+- Cada vez que se actualiza un componente o cambia su estado, se vuelve a renderizar. Estos eventos del ciclo de vida ocurren durante la actualización en este orden.
+
+¿Cuáles son algunos ejemplos de cosas que podríamos almacenar en el state?
+En el contexto de desarrollo de software, especialmente en aplicaciones web y móviles, el “state” (estado) se refiere a la información que una aplicación necesita recordar y gestionar durante su funcionamiento. Aquí tienes algunos ejemplos de cosas que podrías almacenar en el state:
+
+1. Datos del usuario: Información como el nombre, correo electrónico, preferencias y configuraciones personalizadas.
+2. Autenticación: Tokens de sesión o de autenticación que indican si un usuario está logueado y con qué permisos.
+3. Datos de formularios: Información temporalmente almacenada mientras el usuario completa un formulario.
+4. Estado de la interfaz: Información sobre qué elementos de la interfaz están visibles, seleccionados o en qué pestaña se encuentra el usuario.
+5. Datos de la aplicación: Información relevante para el funcionamiento de la aplicación, como listas de productos, detalles de artículos, etc.
+6. Errores y mensajes: Mensajes de error, advertencias o confirmaciones que necesitan mostrarse al usuario.
+7. Datos temporales: Información que solo es relevante durante una sesión específica, como el contenido de un carrito de compras.
