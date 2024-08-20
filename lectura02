@@ -1,1 +1,37 @@
+## Lecturas
+Documentación de React - listas and keys
 
+¿Qué retorna .map()?
+El map. retorna valores de un elemento.
+
+Si quiero recorrer un bucle a través de un array y mostrar cada valor en JSX, ¿cómo lo haría en React?
+Mediando un forEach, que es una opción muy recomendable o con lo aprendido en JS.
+
+Cada elemento de la lista necesita un ____ único.
+-Key, una llave.
+
+¿Cuál es el propósito de una key?
+El key es muy importante, ya que es una llave la cual nos puede ayudar a entender el objeto.
+
+El Operador Spread
+
+¿Qué es el operador spread?
+
+Enumera 4 cosas que el operador spread puede hacer.
+
+Da un ejemplo del uso del operador spread para combinar dos arrays.
+
+Da un ejemplo del uso del operador spread para añadir un nuevo elemento a un array.
+
+Da un ejemplo del uso del operador spread para combinar dos objetos en uno.
+
+Videos
+How to Pass Functions Between Components
+
+En el vídeo, ¿cuál es el primer paso que el desarrollador realiza para pasar funciones entre componentes?
+- 
+En tus propias palabras, ¿qué hace la función handleClick?
+- Es una funcion estado que nos permite actulizar el estado de una variable.
+¿Cómo se puede transmitir un método de un parent component a un child component?
+-
+¿Cómo el child component llama a un método que se le envió desde un parent component?
