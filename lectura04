@@ -1,0 +1,28 @@
+Lecturas
+How to use Forms in React
+
+¿Qué es un ‘Componente Controlado’?
+En el contexto de React, un componente controlado es un componente que gestiona el estado de los elementos del formulario 
+(como <input>, <textarea>, <select>) a través del estado del componente de React en lugar de depender del DOM1. 
+Esto significa que el valor del elemento del formulario se controla mediante el estado del componente y se actualiza a través de eventos como onChange.
+
+¿Deberíamos esperar a almacenar las respuestas de los usuarios del formulario en el state cuando envían el formulario O debemos actualizar el state con sus respuestas tan pronto como las ingresen? ¿Por qué?
+Actualizar el estado con las respuestas de los usuarios tan pronto como las ingresen es generalmente la mejor práctica en React:
+
+- Interactividad en Tiempo Real: Al actualizar el estado inmediatamente, puedes proporcionar retroalimentación instantánea al usuario. 
+- Sincronización del Estado: Mantener el estado del componente sincronizado con los valores del formulario asegura que siempre tengas acceso a los datos más recientes. 
+- Manejo de Eventos: Al manejar los cambios de estado en cada evento onChange, puedes gestionar mejor la lógica de tu aplicación, como la habilitación de campos dependientes o la actualización de otros componentes basados en la entrada del usuario.
+
+¿Cómo utilizamos target lo que el usuario está introduciendo si tenemos un event handler en un campo de input?
+Para acceder a lo que el usuario está introduciendo en un campo de input dentro de un event handler, puedes utilizar la propiedad target del evento. 
+Esta propiedad te da acceso al elemento del DOM que disparó el evento, y puedes obtener el valor del input a través de event.target.value.
+
+The Conditional (Ternary) Operator Explained
+
+¿Por qué utilizaríamos un operador ternario?
+El operador ternario es una forma concisa de escribir una declaración condicional en JavaScript. 
+Se utiliza para evaluar una condición y devolver un valor basado en esa condición, todo en una sola línea. 
+
+Vuelve a escribir la siguiente declaración utilizando una declaración ternaria:
+console.log(x === y) ? true : false;
+
