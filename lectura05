@@ -1,1 +1,32 @@
+Documentación de React - Pensar en React
 
+¿Qué es el principio de responsabilidad única y cómo se aplica a los componentes?
+Nos indica que una clase o modulo debe de hacer una sola funcion y debe de hacerlo de la mejor manera, evitando problemas de errores o inelegibilidad, que pueda desacoplarse y tambien pueda ser sometida a reutilizacion.
+
+¿Qué significa crear una versión ‘estática’ de tu aplicación?
+La version estática es mas facil, económica y escalable, ya que no requieres una comunicación directa con un servidor de donde se puedan obtener datos. No tiene cambios significativos en su despliege y utilización.
+
+Una vez que tienes una aplicación estática, ¿qué necesitas añadir?
+Una vez que tengamoos lista la aplicacion es desplegarla en algun servicio web de servidores para que las podamos aloja, un Hosting.
+
+¿Cuáles son las tres preguntas que puedes hacer para determinar si algo es state?
+Las preguntas que deberiamos hacer es:
+- ¿Cambia con el tiempo?: ya que las aplicaciones estaticas carecen de estados y esto a su vez se traduce en cambios.
+- ¿Depende de otros datos para ser utilizada?: Si puedes calcular el valor a partir de otros datos o props, entonces no necesitas almacenarlo como estado. En su lugar, puedes derivarlo en tiempo real.
+- ¿Es necesario para renderizar la interfaz de usuario?: Si el valor afecta cómo se renderiza la interfaz de usuario, entonces debería ser parte del estado. Esto incluye cosas como la visibilidad de un componente, el contenido de un formulario, etc.
+
+¿Cómo se puedes identificar dónde se necesita ubicar el state?
+Indentificar los componentes que necesitan un cambio de estados, como listas deplegables, formularios o datos que se necesiten de algun tipo base de datos. Solicitudes de algun archivo json. 
+Si utiliza hoocks, no son estáticos, ya que necesitan actulizar un estado. 
+
+Higher-Order Functions
+
+¿Qué es una “función de orden superior”?
+Las funciones de orden superior debe de cumplir esta premisa, que puede aceptar otras funciones como argumentos y utilizarlas en su implementación.
+
+Explora la función greaterThan tal y como se define en la lectura. Con tus propias palabras, ¿qué hace la línea 2 de esta función?
+Generalmente se utiliza para comparar dos componentes y que el resultado de esto sea quien de ellos es mayor que el otro.
+
+Explica cómo funciona map o reduce con respecto a las funciones de orden superior.
+La funcion map es una funcion con dos propositos, uno de ellos es recorrer la funcion y lo que contiene. Por otro lado tambien puede ser un filtro de alguna lógica que queremos implementar. 
+La funcion reduce es aplicada para la suma acumulativa de los valores que contiene y devuelve un valor. 
