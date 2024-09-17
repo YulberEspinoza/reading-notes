@@ -1,0 +1,35 @@
+Si has leído esto antes, hojea este artículo de nuevo para recordarlo.
+
+¿En qué medida influyó la seguridad psicológica en tus anteriores experiencias laborales?
+Considero que mucho, ya que nuestro jefe de área no prestaba atensión a las conversas de retroalimentacion que indicabamos. Este hecho considero que es muy crucial y que no permitía que nosotros
+tengamos confianza en realizar los cambios. 
+
+¿Cómo influye este artículo en tu enfoque para trabajar con otras personas en el futuro?
+Influira mucho ya que la misma experiencia junto con el articulo hara que podamos desarrollarnos mejor como equipos.
+
+How I explained REST to my brother
+
+¿Quién es Roy Fielding?
+Roy Fielding es un informático estadounidense, conocido principalmente por ser uno de los autores principales de la especificación HTTP y por crear el estilo arquitectónico Representational State Transfer (REST).
+
+¿Por qué las técnicas que utilizamos en esta clase no funcionan bien cuando necesitamos comunicarnos con todas las máquinas del mundo?
+Hay muchos aspectos los que tenemos que ver, entre ellos esta la característica de la escalabilidad, ya que no es muy apropiado las clases para que maneje datos de manera mas extensa y global, la interoperatividad
+dado que en el entorno global las maquinas se comunican de maneras diversas y las clases no dan ese alcance, seguridad, las clases no tienen las capas suficientes para proteger los datos. La Seguridad, a nivel mundial
+requerimos un sistema robusto para enviar lo haqueos y que se filtre información, por ello planteamos otras estrategias. 
+
+¿Cuál es el protocolo HTTP que crearon Fielding y sus amigos?
+El protocolo HTTP que crearon Roy Fielding y sus colegas es el HTTP/1.1. 
+Este protocolo es una versión mejorada del HTTP original y se convirtió en el estándar para la comunicación en la web. 
+Fielding y su equipo trabajaron en este protocolo como parte de su investigación sobre arquitecturas de sistemas distribuidos, y su trabajo fue fundamental para el desarrollo de la web moderna.
+
+¿Qué hace un GET?
+El termino GET crea una solicitud de recursos del cliente al servidor y es de manera muy segura. 
+
+¿Qué hace un POST?
+Se utiliza para enviar datos a un servidor.
+
+¿Qué hace PUT?
+Esto hace que se actualiza o reemplaza la informacion del servidor. 
+
+¿Qué hace PATCH?
+El metodo parch se utiliza para hacer modificaciones parciales de los datos del servidor. 
