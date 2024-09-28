@@ -1,0 +1,41 @@
+# lectura07
+¿Qué es node.js?
+En un entorno de ejecusión que usa java.scrip en su desarrollo para trabajar frontend y backend, es escalable, multiplataforma, eficiente y se puede trabajar con javaScrip.
+
+Con tus propias palabras, ¿qué es el Engine V8 de JavaScript de Chrome?
+El motor V8 de Google es un motor de JavaScript de código abierto desarrollado por Google. 
+Está escrito en C++ y se utiliza para compilar y ejecutar código JavaScript, tanto en navegadores web como en entornos de ejecución como Node.js
+
+¿Qué significa que node es un entorno de tiempo de ejecución de JavaScript?
+Esto quiere decir que node nos permite desarrollar la ejecusion de javaScrip en tiempo real y nos presenta todo lo necesario, 
+nos presenta, multiplataforma, motor v8 de google, arquitectura asincronica para que no se bloquee al momento de procesar los 
+datos asincrónicos.
+
+¿Qué es npm?
+Son las siglas del Node Package Manager, permite instalar muchas dependencias a node.js. 
+
+¿Qué versión de node se está ejecutando en tu equipo?
+version v20.12.2
+
+¿Qué versión de npm se está ejecutando en tu equipo?
+Version 10.5.0
+
+¿Qué comando escribirías para instalar una librería/paquete llamado ‘jshint’?
+npm i jshint
+
+¿Para qué se utiliza node?
+en un sistema que nos ayuda a desplegar y ejecutar nuestro proyecto desde el frontend y backend
+
+# 6 Reasons for Pair Programming
+
+¿Cuáles son las 6 razones para hacer pair programming?
+las razones:
+- trabajar en el aprendisaje mutuo
+- reducción de la deuda técnica
+- mayor concentración
+- mejora la calidad del código
+
+En tu experiencia, ¿cuál de estas razones te ha parecido la más beneficiosa?
+
+
+¿Cómo funciona el pair programming?
