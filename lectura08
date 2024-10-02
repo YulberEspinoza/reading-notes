@@ -1,0 +1,44 @@
+lectura08
+
+Procedimientos recomendados para el diseño de API web
+
+¿Qué significa REST?
+REST significa Representational State Transfer. Es un estilo de arquitectura para diseñar servicios web.
+
+Las APIs REST están diseñadas en torno a un ____.
+- Recursos
+
+¿Qué es un identificador de un recurso? Da un ejemplo.
+URL: https://www.example.com/page1 - Esta URL identifica una página web específica en el dominio example.com.
+URN: urn:isbn:0451450523 - Este URN identifica un libro específico mediante su número ISBN.
+Estos identificadores permiten a las aplicaciones y usuarios localizar y acceder a los recursos de manera eficiente.
+
+¿Cuáles son los verbos HTTP más comunes?
+Los vervos mas comunes son Get, Post, Patch, Delete y otros. 
+
+¿En qué deben basarse las URI?
+Una URI consta de varias partes que ayudan a localizar y acceder a un recurso específico en la web. 
+Estas partes incluyen:
+Por ejemplo, en la URI https://www.example.com/page1?user=123#section2:
+https es el esquema.
+www.example.com es la autoridad.
+/page1 es la ruta.
+?user=123 es la consulta.
+#section2 es el fragmento.
+
+Da un ejemplo de una buena URI.
+Por ejemplo, en la URI https://www.example.com/page1?user=123#section2:
+
+¿Qué significa tener una API web ‘locuaz’? ¿Esto es bueno o malo?
+Ventajas de una API locuaz:
+Mayor información: Proporciona más contexto y detalles, lo que puede ayudar a los desarrolladores a entender mejor cómo interactuar con la API y a depurar problemas más fácilmente.
+Mejor documentación implícita: La información adicional puede servir como una forma de documentación en sí misma, facilitando el uso de la API.
+
+¿Qué código de estado retorna un request GET correcto?
+
+
+¿Qué código de estado retorna un request GET incorrecto?
+
+
+¿Qué código de estado retorna un request POST correcto?
+¿Qué código de estado retorna un request DELETE correcto?
