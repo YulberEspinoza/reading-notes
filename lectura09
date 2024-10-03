@@ -1,0 +1,36 @@
+lectura09
+
+Lecturas
+Functional Programming Concepts
+
+¿Qué es la programación funcional?
+La funciones funcionales tienen algunas características:
+- Funciones puras que solo su comportamiento es predeterminado con los argumentos.
+
+¿Qué es una función pura y cómo sabemos si algo es una función pura?
+Es una funcion pura si los resultados solo es determinado por las entradas y sin efectos secundarios.
+
+¿Cuáles son los beneficios de una función pura?
+Que el resultado es lo esperado sin tener respuestas erroneas.
+
+¿Qué es la inmutabilidad?
+Que en vez de cambiar los estados, se crean nuevas estructuras de datos.
+
+¿Qué es la transparencia referencial?
+Es cuando nosotros tenemos una programación funcional y esta tiene un algoritmo al cual a darle diferentes argumentos, siempre dará un mismo valor.
+
+Videos
+Node JS Tutorial for Beginners #6 - Modules and require()
+
+
+¿Qué es un módulo?
+Los modulos son archivos que se jalan por el método require en el código principal.
+
+¿Qué hace la palabra ‘require’?
+Trae el archivo para que este pueda ser utilizado en la función.
+
+¿Cómo insertamos otro módulo en el archivo en el que estamos trabajando?
+Para esto debe de haber tenido una exportación y se trae por el método require a una constante.
+
+¿Qué tenemos que hacer para que un módulo esté disponible?
+Tiene que estar previamente exportado como module.export function();
