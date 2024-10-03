@@ -1,0 +1,44 @@
+lectura10
+
+Lecturas
+Understanding the JavaScript Call Stack
+
+¿Qué es una ‘llamada’ o ‘invocación’?
+Es traer los módulos que se han trabajado en otro archivos mediando el recurso del require.
+
+¿Cuántas ‘llamadas’ o ‘invocaciones’ pueden ocurrir a la vez?
+La programación es asincrónica y esto quiere decir que se hace línea por línea, y las respuestas tienen una promesa de respuesta.
+
+¿Qué significa LIFO?
+Es una estructura de datos el cual tiene un esquema que es una pila de datos, donde el último en entrar es el primero de salir.
+
+Grafica un ejemplo de un call stack y las funciones que se necesitarían invocar para generar ese call stack.
+|          |
+| main()   | <- Se desapila al final
+| funcA()  | <- Se desapila después de funcB()
+| funcB()  | <- Se desapila primero
+|__________|
+
+¿Qué causa un desbordamiento de pila?
+El desbordamiento o stack overflow es un concepto el cual aparece cuando la estructura de datos esta mal diseñada y se ejecuta 
+indefinidamente, haciendo que sus recursos se agoten.
+
+JavaScript error messages
+
+¿Qué es un ‘reference error’?
+Un ReferenceError es un tipo de error en programación que ocurre cuando se intenta acceder a una variable que no ha sido declarada o que está fuera del alcance (scope) actual.
+
+¿Qué es un ‘syntax error’?
+Un syntax error (error de sintaxis) ocurre cuando el código escrito no sigue las reglas gramaticales del lenguaje de programación.
+
+¿Qué es un ‘range error’?
+Un RangeError es un tipo de error en programación que ocurre cuando un valor no está dentro del rango permitido o esperado. 
+
+¿Qué es un ‘type error’?
+Un TypeError es un tipo de error en programación que ocurre cuando una operación no puede ser realizada debido a que los tipos de datos involucrados no son compatibles.
+
+¿Qué es un breakpoint?
+Un breakpoint (punto de interrupción) es una herramienta utilizada en la depuración de programas. Permite a los desarrolladores pausar la ejecución de un programa en un punto específico para examinar el estado del programa y diagnosticar problemas.
+
+¿Qué hace la palabra ‘debugger’ en tu código?
+La palabra clave debugger en JavaScript se utiliza para pausar la ejecución del código en el punto donde se encuentra, similar a un breakpoint.
